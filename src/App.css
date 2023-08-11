@@ -1,0 +1,129 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body{
+  background-image: linear-gradient( skyblue, red);
+  min-height: 700px;
+}
+.Links{
+  display: flex;
+  justify-content: space-around;
+background-color: blue;
+
+}
+.lin{
+  color: beige;
+  text-decoration-line: none;
+  font-size: 35px;
+  font-family:  'Edu NSW ACT Foundation', cursive;
+
+}
+
+ p{
+  margin: 50px;
+ }
+ tr{
+  font-size: 20px;
+  text-align: center;
+  border: 1px solid gray;
+ }
+ table{
+  width: 90%;
+  margin: auto;
+  border: 1px solid black;
+  margin-top: 50px;
+ }
+ th{
+  font-size: 30px;
+ }
+ td{
+  border: 1px solid gray;
+  font-size: 30px;
+ }
+ @media screen and (min-width:250px) and (max-width:500px) {
+  
+  .Links{
+    flex-direction: column;
+    width: 100vw;
+    align-items: center;
+  }
+  p{
+    margin: 0px;
+   }
+   table{
+    width: 50%;
+    margin: 20vw;
+    
+   }
+   tr{
+    font-size: 15px;
+   }
+   td{
+    border: 1px solid gray;
+    font-size: 18px;
+    background-color:whitesmoke;
+   }
+ }
+ .nav{
+  display: flex;
+  justify-content: space-between;
+ }
+button{
+  height: 40px;
+  width: 150px;
+  border-radius: 15px;
+  font-size: 15px;
+  background-color: teal;
+  margin-right: 5%;
+  margin-top: 5%;
+}
+form{
+text-align: center;
+}
+label{
+  font-size: 3rem;
+  margin: 2%;
+}
+input{
+  height: 40px;
+  width: 15%;
+  border-radius: 10px;
+  text-align: center;
+  margin-right: 10%;
+}
