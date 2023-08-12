@@ -5,6 +5,7 @@ import Student from "./student";
 import Contact from "./contact";
 import Storedata from "./store";
 import Addnewstudent from "./Addnewstudent";
+import Editstudent from "./editstudent";
 
 
 
@@ -34,6 +35,9 @@ return(
     } />
     <Route path='/newstudent' element ={<Storedata.Provider value={{stuname:studentdata, updateStu :setstudentdata}}>
             <Addnewstudent/>
+        </Storedata.Provider>} />
+        <Route path='/editstudent' element ={<Storedata.Provider value={{stuname:studentdata, updateStu :setstudentdata}}>
+            <Editstudent/>
         </Storedata.Provider>} />
     <Route path='/contact' element ={<Contact/>} />
 </Routes>
